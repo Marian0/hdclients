@@ -22,8 +22,11 @@
 */
 
 $environments = array(
-
-	'local' => array('http://localhost*', '*.dev'),
+  //Entorno de desarrollo
+  'dev' => array('http://localhost*', '*.dev'),
+  
+  //Entorno de producción
+	'prod' => array('http://yoursite*', '*.com'),
 
 );
 
